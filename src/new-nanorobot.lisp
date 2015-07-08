@@ -1,3 +1,6 @@
+(load "nr.lisp")
+(load "nanorobot.lisp")
+
 (defun new-nanorobot ()
   (let ((energy 100))
     #'(lambda (nr)
