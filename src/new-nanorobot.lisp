@@ -11,7 +11,8 @@
               ((and (< energy 10) (nr-red-globule nr))
                 'RECHARGE)
               ((< energy 10)
-                'STAY
+               (dec energy 1)
+                'STAY)
               (T 'WAIT))
         )
       )
