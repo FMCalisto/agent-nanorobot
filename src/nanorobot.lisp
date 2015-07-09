@@ -1,4 +1,4 @@
-(load "nr.lisp")
+(load "cell.lisp")
 
 (defun nanorobot (cell)
   (cond ((cell-cancer cell) 'ATTACK)
