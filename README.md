@@ -16,7 +16,7 @@ The nanorobot has the following actions available:
 * Wait - The nanorobot off their engines and allowed to simply go with the flow blood.
          This does not waste energy.
 
-The nanorobot has two perceptions: a blood cell-red-globule-p perception, which if true is that there
+The nanorobot has two perceptions: a blood cell-red-p perception, which if true is that there
 a red blood cell in the current position of the nanorobot; the perception cell-cancer-p that if true
 is a cancer cell which exists at the current position of the nanorobot.
 
