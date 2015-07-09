@@ -11,7 +11,7 @@
                (setf energy 100)
                 'RECHARGE)
               ((< energy 10)
-               (dec energy 1)
+               (decf energy 1)
                 'STAY)
               (T 'WAIT)
         )
