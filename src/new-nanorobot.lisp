@@ -7,7 +7,7 @@
         (cond ((and (cell-cancer-p cell) (> energy 10))
                 (decf energy 10)
                 'ATTACK)
-              ((and (< energy 10) (cell-red-globule-p cell))
+              ((and (< energy 10) (cell-red-p cell))
                (setf energy 100)
                 'RECHARGE)
               ((< energy 10)
