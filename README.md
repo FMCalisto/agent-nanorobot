@@ -32,3 +32,8 @@ If you do not have enough power, you should charge (if there is a red blood cell
 
 In so try to guarantee some minimum energy whenever the agent is less than 10 units
 energy and see a red blood cell should be recharged.
+
+## Acknowledgments
+
+- [Rodrigo Lourenço](https://github.com/rzlourenco)
+@rzlourenco
