@@ -1,5 +1,5 @@
-(defstruct nr
-  (cancer NIL)
-  (red-globule NIL)
-  (min-engine NIL)
+(defstruct cell
+  (cancer-p NIL)
+  (red-globule-p NIL)
+  (min-engine-p NIL)
 )
