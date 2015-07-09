@@ -1,9 +1,9 @@
 (load "nr.lisp")
 
-(defun nanorobot (nr)
-  (cond ((nr-cancer nr) 'ATTACK)
-       ((nr-red-globule nr) 'RECHARGE)
-       ((nr-min-engine nr) 'STAY)
+(defun nanorobot (cell)
+  (cond ((cell-cancer cell) 'ATTACK)
+       ((cell-red-globule cell) 'RECHARGE)
+       ((cell-min-engine cell) 'STAY)
        (T 'WAIT)
   )
 )
